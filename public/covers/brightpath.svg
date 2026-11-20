@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800" role="img" aria-label="BrightPath education layout study">
+  <rect width="1200" height="800" fill="#0d1422"/>
+  <rect x="760" y="0" width="440" height="800" fill="#152033"/>
+  <text x="80" y="130" fill="#8eb0ff" font-family="Segoe UI, sans-serif" font-size="22" letter-spacing="3">EDUCATION</text>
+  <text x="80" y="230" fill="#f4f7fb" font-family="Georgia, serif" font-size="76">Courses</text>
+  <text x="80" y="290" fill="#b7c3d6" font-family="Segoe UI, sans-serif" font-size="28">Subjects and admission enquiries.</text>
+  <rect x="80" y="360" width="560" height="78" rx="14" fill="#162033"/>
+  <circle cx="122" cy="399" r="10" fill="#5b8cff"/>
+  <text x="156" y="408" fill="#f4f7fb" font-family="Segoe UI, sans-serif" font-size="26">Mathematics</text>
+  <rect x="80" y="456" width="560" height="78" rx="14" fill="#162033"/>
+  <circle cx="122" cy="495" r="10" fill="#5b8cff"/>
+  <text x="156" y="504" fill="#f4f7fb" font-family="Segoe UI, sans-serif" font-size="26">Writing</text>
+  <rect x="80" y="552" width="560" height="78" rx="14" fill="#162033"/>
+  <circle cx="122" cy="591" r="10" fill="#5b8cff"/>
+  <text x="156" y="600" fill="#f4f7fb" font-family="Segoe UI, sans-serif" font-size="26">Science</text>
+  <text x="820" y="250" fill="#8eb0ff" font-family="Segoe UI, sans-serif" font-size="22" letter-spacing="3">ENQUIRY</text>
+  <text x="820" y="330" fill="#f4f7fb" font-family="Georgia, serif" font-size="48">Ask about</text>
+  <text x="820" y="390" fill="#f4f7fb" font-family="Georgia, serif" font-size="48">admission</text>
+  <rect x="820" y="440" width="220" height="54" rx="27" fill="#2f62e0"/>
+  <text x="868" y="474" fill="#ffffff" font-family="Segoe UI, sans-serif" font-size="22" font-weight="700">Enquire</text>
+</svg>

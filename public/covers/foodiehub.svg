@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800" role="img" aria-label="FoodieHub restaurant layout study">
+  <rect width="1200" height="800" fill="#1a120e"/>
+  <rect x="72" y="56" width="1056" height="688" rx="28" fill="#241812"/>
+  <circle cx="116" cy="104" r="7" fill="#e7a15a"/>
+  <circle cx="140" cy="104" r="7" fill="#6b4a34"/>
+  <circle cx="164" cy="104" r="7" fill="#6b4a34"/>
+  <text x="196" y="111" fill="#e7a15a" font-family="Segoe UI, sans-serif" font-size="22" letter-spacing="2">DEMONSTRATION</text>
+  <text x="112" y="210" fill="#e7a15a" font-family="Segoe UI, sans-serif" font-size="22" letter-spacing="3">RESTAURANT</text>
+  <text x="112" y="280" fill="#f6efe8" font-family="Georgia, serif" font-size="72">Tonight's menu</text>
+  <text x="112" y="330" fill="#c9b4a2" font-family="Segoe UI, sans-serif" font-size="26">Starters, mains, and a WhatsApp order.</text>
+  <rect x="112" y="368" width="220" height="52" rx="26" fill="#e7a15a"/>
+  <text x="148" y="401" fill="#1a120e" font-family="Segoe UI, sans-serif" font-size="22" font-weight="700">Order</text>
+  <rect x="112" y="470" width="300" height="210" rx="18" fill="#312016"/>
+  <circle cx="262" cy="560" r="62" fill="#e7a15a"/>
+  <circle cx="262" cy="560" r="28" fill="#f3d2a4"/>
+  <text x="136" y="650" fill="#f6efe8" font-family="Segoe UI, sans-serif" font-size="22">Starters</text>
+  <rect x="440" y="470" width="300" height="210" rx="18" fill="#312016"/>
+  <circle cx="590" cy="560" r="62" fill="#c4654a"/>
+  <circle cx="590" cy="560" r="28" fill="#f0b8a4"/>
+  <text x="464" y="650" fill="#f6efe8" font-family="Segoe UI, sans-serif" font-size="22">Mains</text>
+  <rect x="768" y="470" width="300" height="210" rx="18" fill="#312016"/>
+  <circle cx="918" cy="560" r="62" fill="#d9c3a1"/>
+  <circle cx="918" cy="560" r="28" fill="#f7efe4"/>
+  <text x="792" y="650" fill="#f6efe8" font-family="Segoe UI, sans-serif" font-size="22">Hours</text>
+</svg>
