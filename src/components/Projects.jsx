@@ -19,18 +19,12 @@ export default function Projects() {
         <p className="section-kicker">My work</p>
         <h2>Selected Projects</h2>
         <p className="lede">
-          Websites I have built, including live sites and a demonstration study.
+          Websites I have built.
         </p>
         <Reveal>
           <div className="project-list">
             {projects.map((project, index) => (
-              <article
-                className={
-                  project.liveUrl ? "project project-featured" : "project"
-                }
-                key={project.id}
-                id={project.id}
-              >
+              <article className="project" key={project.id} id={project.id}>
                 <div className="project-media">
                   <img
                     className={project.imageFit === "contain" ? "fit-contain" : undefined}
@@ -47,10 +41,12 @@ export default function Projects() {
                   />
                 </div>
                 <div className="project-copy" id={`${project.id}-detail`}>
-                  {project.demonstration ? (
-                    <p className="demo-label">Demonstration</p>
-                  ) : null}
-                  <p className="project-kind">{project.category}</p>
+                  <p className="project-label">
+                    <span className="project-index">
+                      {String(index + 1).padStart(2, "0")}
+                    </span>
+                    <span className="project-kind">{project.category}</span>
+                  </p>
                   <h3>{project.name}</h3>
                   <p>{project.summary}</p>
                   <ul className="tech-list" aria-label="Technologies">

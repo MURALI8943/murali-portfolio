@@ -1,7 +1,7 @@
 /**
  * Portfolio content for Murali.
  * Email, WhatsApp, phone, location, GitHub, and LinkedIn are the configured contact details.
- * Arogya Adarsh and Ananthsai Caterers are live websites. DottFit is a demonstration.
+ * Arogya Adarsh, DottFit, and Ananthsai Caterers are live websites.
  */
 
 export const site = {
@@ -153,23 +153,18 @@ export const projects = [
     name: "DottFit",
     category: "Fitness Website",
     summary:
-      "A fitness coaching website that helps users explore programs and submit fitness enquiries.",
-    cover: "/covers/dottfit.svg",
-    demonstration: true,
+      "A fitness website for online training programs, pricing, and a fit-score check.",
+    cover: "/images/projects/dottfit-homepage.jpg",
+    imageWidth: 1024,
+    imageHeight: 474,
+    imageFit: "cover",
+    liveUrl: "https://dottfit.co.in/",
     overview:
-      "A sample coaching site. Visitors can look at programs and send an enquiry.",
-    purpose:
-      "Show how a coach can explain programs and collect a fitness enquiry.",
-    role:
-      "Demonstration. I designed the program, plan, and enquiry screens for this sample. It is not a live coaching business.",
-    features: [
-      "Fitness programs",
-      "Pricing plans",
-      "Fitness assessment",
-      "Contact forms",
-      "Admin management",
-    ],
-    technologies: ["React.js", "Node.js", "Express.js", "PostgreSQL"],
+      "A fitness website where people can look at training programs, pricing, and check a fit score.",
+    purpose: "A public site for DottFit's online training programs.",
+    role: "I built this React.js website.",
+    features: ["Training programs", "Pricing", "Fit score", "Contact"],
+    technologies: ["React.js"],
   },
   {
     id: "ananthsai-caterers",

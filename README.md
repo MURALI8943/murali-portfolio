@@ -2,7 +2,7 @@
 
 A one-page portfolio for Murali, a Full Stack Developer. Built with React and Vite.
 
-Arogya Adarsh and Ananthsai Caterers are live websites. DottFit is a demonstration and is not a live client site.
+Arogya Adarsh, DottFit, and Ananthsai Caterers are live websites.
 
 ## Run locally
 
