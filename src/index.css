@@ -890,49 +890,113 @@ a {
 
 .channel-list {
   display: grid;
-  gap: 0;
-  border-top: 1px solid var(--line);
+  gap: 0.85rem;
+  margin-top: 0.35rem;
+  border-top: 0;
 }
 
-.channel-list a {
+.channel-list a,
+.channel-card {
   display: flex;
   align-items: center;
-  gap: 0.85rem;
-  padding: 0.9rem 0;
-  border-bottom: 1px solid var(--line);
+  gap: 0.9rem;
+  min-height: 4.4rem;
+  padding: 0.95rem 1rem;
+  border: 1px solid var(--line);
+  border-radius: 16px;
+  background: rgba(12, 18, 36, 0.55);
   text-decoration: none;
+  transition:
+    background 0.2s ease,
+    border-color 0.2s ease,
+    transform 0.2s ease,
+    box-shadow 0.2s ease;
 }
 
 .channel-icon {
   display: grid;
   place-items: center;
   flex: none;
-  width: 2.6rem;
-  height: 2.6rem;
+  width: 2.75rem;
+  height: 2.75rem;
   border-radius: 50%;
   background: rgba(142, 180, 255, 0.16);
   color: #d7e6ff;
+  transition:
+    background 0.2s ease,
+    color 0.2s ease;
+}
+
+.channel-icon.email {
+  background: rgba(158, 182, 255, 0.18);
+  color: #c7d6ff;
 }
 
 .channel-icon.whatsapp {
-  background: rgba(37, 211, 102, 0.16);
-  color: #62f0a0;
+  background: rgba(37, 211, 102, 0.18);
+  color: #25d366;
 }
 
-.channel-list a:hover .channel-icon {
-  background: #2f4de0;
+.channel-icon.github {
+  background: rgba(255, 255, 255, 0.1);
+  color: #f0f3f8;
+}
+
+.channel-icon.linkedin {
+  background: rgba(10, 102, 194, 0.22);
+  color: #6eb6ff;
+}
+
+.channel-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.28);
+}
+
+.channel-email:hover {
+  border-color: rgba(158, 182, 255, 0.85);
+  background: rgba(61, 91, 255, 0.22);
+}
+
+.channel-whatsapp:hover {
+  border-color: rgba(37, 211, 102, 0.9);
+  background: rgba(37, 211, 102, 0.18);
+}
+
+.channel-github:hover {
+  border-color: rgba(255, 255, 255, 0.45);
+  background: rgba(255, 255, 255, 0.1);
+}
+
+.channel-linkedin:hover {
+  border-color: rgba(10, 102, 194, 0.9);
+  background: rgba(10, 102, 194, 0.22);
+}
+
+.channel-card:hover .channel-icon {
   color: white;
 }
 
-.channel-list a:hover .channel-icon.whatsapp {
-  background: #1ea855;
-  color: white;
+.channel-email:hover .channel-icon {
+  background: #3d5bff;
+}
+
+.channel-whatsapp:hover .channel-icon {
+  background: #25d366;
+}
+
+.channel-github:hover .channel-icon {
+  background: #24292f;
+}
+
+.channel-linkedin:hover .channel-icon {
+  background: #0a66c2;
 }
 
 .channel-text {
   display: grid;
   min-width: 0;
   text-align: left;
+  gap: 0.1rem;
 }
 
 .channel-list a:hover .channel-text span {
@@ -942,6 +1006,10 @@ a {
 .channel-list small {
   color: var(--muted);
   overflow-wrap: anywhere;
+}
+
+.channel-card:hover small {
+  color: rgba(246, 243, 238, 0.82);
 }
 
 .site-footer {
@@ -962,7 +1030,7 @@ a {
 .footer-bar {
   display: grid;
   gap: 1.1rem;
-  padding: 1.35rem 0 1.5rem;
+  padding: 1.35rem 0 6.5rem;
 }
 
 .footer-brand {
@@ -1099,7 +1167,7 @@ a {
   position: fixed;
   animation: fade-in 0.2s ease;
   right: 1rem;
-  bottom: 1rem;
+  bottom: 1.15rem;
   z-index: 25;
   display: inline-flex;
   align-items: center;
@@ -1299,7 +1367,7 @@ a {
   }
 
   .footer-bar {
-    padding-bottom: 4.25rem;
+    padding-bottom: 6.75rem;
   }
 
   .dialog-root {
@@ -1318,7 +1386,7 @@ a {
     grid-template-columns: auto minmax(0, 1fr) auto;
     align-items: center;
     gap: 1.25rem 2rem;
-    padding: 1.2rem 0 1.35rem;
+    padding: 1.2rem 0 6.25rem;
   }
 
   .footer-facts {
@@ -1346,7 +1414,8 @@ a {
 
   .skill-groups,
   .service-list,
-  .process-list {
+  .process-list,
+  .channel-list {
     grid-template-columns: 1fr 1fr;
     gap: 1.25rem;
   }
@@ -1395,10 +1464,7 @@ a {
 
   .channel-list {
     grid-template-columns: 1fr 1fr;
-  }
-
-  .channel-list a:nth-child(odd) {
-    padding-right: 1.5rem;
+    gap: 1rem;
   }
 }
 
