@@ -23,8 +23,10 @@ export default function Footer() {
             </a>
           </li>
           <li>
-            <a href={site.phoneHref}>
-              <Phone aria-hidden="true" size={18} />
+            <a className="call-cue" href={site.phoneHref}>
+              <span className="call-icon">
+                <Phone aria-hidden="true" size={18} />
+              </span>
               <span>
                 <span className="footer-kicker">Call</span>
                 {site.phone}

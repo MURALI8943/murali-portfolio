@@ -1,6 +1,7 @@
 import { X } from "lucide-react";
 import { useEffect, useRef } from "react";
 import { createPortal } from "react-dom";
+import LiveSignal from "./LiveSignal.jsx";
 
 export default function ProjectDialog({ project, openerRef, onClose }) {
   const rootRef = useRef(null);
@@ -137,7 +138,9 @@ export default function ProjectDialog({ project, openerRef, onClose }) {
               target="_blank"
               rel="noreferrer"
             >
-              View Live Website
+              <LiveSignal />
+              <span className="live-word">Live</span>
+              View website
               <span className="visually-hidden"> (opens in a new tab)</span>
             </a>
           ) : (

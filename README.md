@@ -18,6 +18,8 @@ npm run build
 npm run preview
 ```
 
+Live site (GitHub Pages): https://murali8943.github.io/murali-portfolio/
+
 ## Before you share it
 
 Edit `src/data/site.js`:

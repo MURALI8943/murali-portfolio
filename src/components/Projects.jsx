@@ -1,5 +1,6 @@
 import { useRef, useState } from "react";
 import { projects } from "../data/site.js";
+import LiveSignal from "./LiveSignal.jsx";
 import ProjectDialog from "./ProjectDialog.jsx";
 import Reveal from "./Reveal.jsx";
 
@@ -62,7 +63,9 @@ export default function Projects() {
                         target="_blank"
                         rel="noreferrer"
                       >
-                        View Live Website
+                        <LiveSignal />
+                        <span className="live-word">Live</span>
+                        View website
                         <span className="visually-hidden"> (opens in a new tab)</span>
                       </a>
                     ) : null}
