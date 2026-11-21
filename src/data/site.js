@@ -137,8 +137,8 @@ export const projects = [
       "An organic products e-commerce website that helps customers explore products and shop online.",
     cover: "/images/projects/arogya-adarsh-homepage.jpg",
     imageWidth: 1024,
-    imageHeight: 483,
-    imageFit: "cover",
+    imageHeight: 475,
+    imageFit: "contain",
     liveUrl: "https://arogyaadarshorganic.com/home",
     overview:
       "An organic products e-commerce website that helps customers explore products and shop online.",
@@ -156,8 +156,8 @@ export const projects = [
       "A fitness website for online training programs, pricing, and a fit-score check.",
     cover: "/images/projects/dottfit-homepage.jpg",
     imageWidth: 1024,
-    imageHeight: 474,
-    imageFit: "cover",
+    imageHeight: 473,
+    imageFit: "contain",
     liveUrl: "https://dottfit.co.in/",
     overview:
       "A fitness website where people can look at training programs, pricing, and check a fit score.",
@@ -174,8 +174,8 @@ export const projects = [
       "A catering website for weddings, corporate events, birthdays, and family functions, with a menu and an enquiry.",
     cover: "/images/projects/ananthsai-caterers-homepage.jpg",
     imageWidth: 1024,
-    imageHeight: 486,
-    imageFit: "cover",
+    imageHeight: 478,
+    imageFit: "contain",
     liveUrl: "https://ananthsai-caterers.aibzr.com/",
     overview:
       "A catering website where hosts can look at services, the menu, and a food gallery, then send an enquiry.",
